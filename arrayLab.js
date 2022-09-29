@@ -80,7 +80,7 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
-
+const allFoods = foods
 console.log('Exercise 9 Result: ', allFoods);
 
 /*
@@ -89,8 +89,14 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
+const hasSoup = foods
+  if (hasSoup === 'soup') {
+    console.log('Exercise 10 Result: ', 'Has soup')
+  } else { 
+    console.log('Exercise 10 Result: ', 'Does not have soup')
+  }
 
-// console.log('Exercise 10 Result: ', hasSoup);
+
 
 /*
 Exercise 11:
@@ -101,11 +107,17 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
-// console.log('Exercise 11 Result: ', odds);
+let odds = []
+for (i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 1) {
+    odds.push(nums[i])
+  }
+}
+  console.log('Exercise 11 Result: ', odds);
 
 /*
 Exercise 12:
@@ -117,7 +129,16 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-// console.log('Exercise 12 Results:');
+//---------------------------
+// What I have so far
+//---------------------------
+// let fizz = nums
+// let buzz = nums
+// let fizzbuzz = nums
+//---------------------------
+
+
+// console.log('Exercise 12 Results:', );
 // console.log('  fizz:', fizz);
 // console.log('  buzz:', buzz);
 // console.log('  fizzbuzz:', fizzbuzz);
@@ -128,16 +149,17 @@ Exercise 13:
   - Assume you don't know how many nested arrays numArrays contains.
 */
 
-// const numArrays = [
-// 	[100, 5, 23],
-// 	[15, 21, 72, 9],
-// 	[45, 66],
-// 	[7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
 // Complete Exercise 13 below...
+const numList = numArrays
 
-// console.log('Exercise 13 Result: ', numList);
+console.log('Exercise 13 Result: ', numList[3]);
 
 /*
 Exercise 14:
@@ -145,8 +167,8 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
-
-// console.log('Exercise 14 Result: ', num);
+const num = numArrays
+console.log('Exercise 14 Result: ', num[2][1]);
 
 /*
 Exercise 15:
@@ -156,4 +178,7 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
-// console.log('Exercise 15 Result: ', total);
+// Haven't Solved 
+const total = numArrays
+console.log('Exercise 15 Result: ', total);
+// Haven't Solved
