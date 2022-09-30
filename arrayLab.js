@@ -131,17 +131,25 @@ Exercise 12:
 
 //---------------------------
 // What I have so far
-//---------------------------
-// let fizz = nums
-// let buzz = nums
-// let fizzbuzz = nums
-//---------------------------
+
+
+// for (let i = 0; i < nums.length; i++){
+//   if (i % 3 === 0) {
+//   return fizz
+// } else if (i % 5 === 0) {
+//   return buzz
+// } else if (i % 3 === 0 && i % 5 === 0) {
+//   return fizzbuzz
+// }
+// }
 
 
 // console.log('Exercise 12 Results:', );
 // console.log('  fizz:', fizz);
 // console.log('  buzz:', buzz);
 // console.log('  fizzbuzz:', fizzbuzz);
+
+
 
 /*
 Exercise 13:
@@ -180,5 +188,6 @@ Exercise 15:
 
 // Haven't Solved 
 const total = numArrays
+
 console.log('Exercise 15 Result: ', total);
 // Haven't Solved
